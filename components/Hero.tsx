@@ -133,7 +133,7 @@ const Hero: React.FC = () => {
           className="my-3 flex flex-col items-center"
         >
           <h1 className="text-white font-traditional text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-wider drop-shadow-2xl font-bold uppercase">
-            Manikanta
+            Manikanta Reddy
           </h1>
 
           <div className="my-1 sm:my-2">
@@ -143,7 +143,7 @@ const Hero: React.FC = () => {
           </div>
 
           <h1 className="text-white font-traditional text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-wider drop-shadow-2xl font-bold uppercase">
-            Shalini
+            Baby Shalini
           </h1>
         </motion.div>
 
