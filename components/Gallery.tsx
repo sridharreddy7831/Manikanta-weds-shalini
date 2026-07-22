@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { HORIZONTAL_IMAGES, VERTICAL_IMAGES } from '../constants';
+import { HORIZONTAL_IMAGES } from '../constants';
 
 const ImageSlider: React.FC<{ images: { url: string }[]; aspect: string; title: string }> = ({ images, aspect, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -103,21 +103,7 @@ const Gallery: React.FC = () => {
           </motion.div>
         )}
 
-        {/* Vertical Slideshow */}
-        {VERTICAL_IMAGES.length > 0 && (
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <ImageSlider
-              images={VERTICAL_IMAGES}
-              // title="Enchanting Portraits"
-              aspect="max-w-md mx-auto aspect-[4/5]"
-            />
-          </motion.div>
-        )}
+
 
 
         <motion.div

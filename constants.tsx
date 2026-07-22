@@ -53,14 +53,12 @@ export const SLOKAS = [
 ];
 
 export const HORIZONTAL_IMAGES = [
-  { url: '/11.jpeg' },
-  { url: '/12.jpeg' },
-  { url: '/13.jpg' },
+  { url: '/1.jpeg' },
+  { url: '/2.jpeg' },
+  { url: '/33.jpeg' },
+  { url: '/44.jpeg' },
+  { url: '/5.jpeg' },
 ];
 
-export const VERTICAL_IMAGES = [
-  { url: '/2.jpg' },
-  { url: '/5.jpg' },
-  { url: '/00.jpg' },
-];
+
 
