@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { HORIZONTAL_IMAGES } from '../constants';
 
-const ImageSlider: React.FC<{ images: { url: string }[]; aspect: string; title: string }> = ({ images, aspect, title }) => {
+const ImageSlider: React.FC<{ images: { url: string }[]; aspect: string; title?: string }> = ({ images, aspect, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const ImageSlider: React.FC<{ images: { url: string }[]; aspect: string; title: 
 
   return (
     <div className="mb-16">
-      <h3 className="text-2xl font-script text-[#800000] mb-6 text-center">{title}</h3>
+      {title && <h3 className="text-2xl font-script text-[#800000] mb-6 text-center">{title}</h3>}
       <div className="relative group max-w-4xl mx-auto">
         <div className={`relative ${aspect} overflow-hidden rounded-[2rem] shadow-2xl border-2 border-[#FFD700]/40 bg-[#4A0E0E]/5`}>
           <div className="relative w-full h-full overflow-hidden">
@@ -26,7 +26,7 @@ const ImageSlider: React.FC<{ images: { url: string }[]; aspect: string; title: 
                 <div key={idx} className="min-w-full h-full relative">
                   <img
                     src={img.url}
-                    alt={`${title} ${idx + 1}`}
+                    alt={title ? `${title} ${idx + 1}` : `Gallery Image ${idx + 1}`}
                     className="w-full h-full object-cover"
                     loading="lazy"
                   />
