@@ -84,7 +84,7 @@ const Story: React.FC = () => {
                 />
                 <div className="absolute -bottom-1 -right-1 sm:-bottom-2 sm:-right-2 bg-[#800000] text-white text-[8px] sm:text-[10px] px-2 sm:px-4 py-0.5 sm:py-1 rounded-full font-bold border border-[#FFD700] shadow-md">GROOM</div>
               </div>
-              <p className="font-traditional font-bold mt-3 text-sm sm:text-xl text-[#800000]">Manikanta</p>
+              <p className="font-traditional font-bold mt-3 text-sm sm:text-xl text-[#800000]">Manikanta Reddy</p>
             </motion.div>
 
             <motion.div
@@ -120,7 +120,7 @@ const Story: React.FC = () => {
                 />
                 <div className="absolute -bottom-1 -right-1 sm:-bottom-2 sm:-right-2 bg-[#800000] text-white text-[8px] sm:text-[10px] px-2 sm:px-4 py-0.5 sm:py-1 rounded-full font-bold border border-[#FFD700] shadow-md">BRIDE</div>
               </div>
-              <p className="font-traditional font-bold mt-3 text-sm sm:text-xl text-[#800000]">Shalini</p>
+              <p className="font-traditional font-bold mt-3 text-sm sm:text-xl text-[#800000]">Baby Shalini</p>
             </motion.div>
           </div>
         </div>
