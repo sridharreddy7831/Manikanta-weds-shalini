@@ -16,7 +16,7 @@ export const WEDDING_EVENTS: WeddingEvent[] = [
     id: 'haldi',
     name: 'Haldi Ceremony',
     date: 'Thursday, August 13, 2026',
-    time: '09:00 AM onwards',
+    time: '02:00 PM onwards',
     venue: "Groom's House, Yeguvathotlipalli",
     description: 'A traditional pre-wedding ritual of applying sacred turmeric and oils, marking the commencement of wedding celebrations.',
     icon: '✨',
