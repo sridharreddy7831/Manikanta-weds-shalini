@@ -122,9 +122,7 @@ const Hero: React.FC = () => {
           transition={{ delay: 0.6, duration: 0.8 }}
           className="flex items-center justify-center gap-3 my-2 text-[#FFD700]"
         >
-          <div className="h-px w-16 sm:w-24 bg-gradient-to-r from-transparent via-[#FFD700] to-transparent"></div>
-          <span className="text-xl sm:text-2xl drop-shadow">🪔</span>
-          <div className="h-px w-16 sm:w-24 bg-gradient-to-r from-transparent via-[#FFD700] to-transparent"></div>
+          <div className="h-px w-32 sm:w-48 bg-gradient-to-r from-transparent via-[#FFD700] to-transparent"></div>
         </motion.div>
 
         {/* Main Names Centerpiece: Elegant Classic Layout */}

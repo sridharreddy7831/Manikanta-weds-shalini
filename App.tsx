@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react
 import Home from './pages/Home';
 import WelcomeScreen from './components/WelcomeScreen';
 import { AnimatePresence, motion } from 'framer-motion';
+import MobileOnlyWarning from './components/MobileOnlyWarning';
 
 
 
@@ -290,6 +291,7 @@ const App: React.FC = () => {
   return (
     <Router>
       <ScrollToTop />
+      <MobileOnlyWarning />
       <NavigationHandler isPlaying={isPlaying} setIsPlaying={setIsPlaying} audioRef={audioRef} />
 
       <AnimatePresence mode="wait">
