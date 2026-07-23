@@ -65,9 +65,9 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 z-[1] bg-gradient-to-b from-black/80 via-black/40 to-[#4A0E0E]/90 pointer-events-none" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
-        
+
         {/* Shloka Container */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -130,19 +130,17 @@ const Hero: React.FC = () => {
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.9 }}
-          className="my-3 flex flex-col items-center"
+          className="my-6 flex flex-col items-center gap-2 text-center"
         >
-          <h1 className="text-white font-traditional text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-wider drop-shadow-2xl font-bold uppercase">
+          <h1 className="text-white font-traditional text-3xl sm:text-5xl md:text-6xl lg:text-7xl tracking-wider drop-shadow-2xl font-bold uppercase whitespace-nowrap">
             Manikanta Reddy
           </h1>
 
-          <div className="my-1 sm:my-2">
-            <span className="text-[#FFD700] font-script text-5xl sm:text-7xl md:text-8xl lg:text-9xl drop-shadow-[0_0_25px_rgba(255,215,0,0.7)] inline-block">
-              &
-            </span>
-          </div>
+          <span className="text-[#FFD700] font-script text-4xl sm:text-6xl md:text-7.5xl lg:text-8.5xl drop-shadow-[0_0_25px_rgba(255,215,0,0.7)] inline-block leading-none">
+            &
+          </span>
 
-          <h1 className="text-white font-traditional text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-wider drop-shadow-2xl font-bold uppercase">
+          <h1 className="text-white font-traditional text-3xl sm:text-5xl md:text-6xl lg:text-7xl tracking-wider drop-shadow-2xl font-bold uppercase whitespace-nowrap">
             Baby Shalini
           </h1>
         </motion.div>
@@ -190,7 +188,7 @@ const Hero: React.FC = () => {
               className="bg-[#800000]/45 backdrop-blur-md flex flex-col items-center py-3 sm:py-4 rounded-2xl border border-[#FFD700]/40 shadow-[0_10px_25px_rgba(0,0,0,0.4)] px-2 sm:px-4 relative overflow-hidden group"
             >
               <div className="absolute inset-0 bg-gradient-to-b from-[#FFD700]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
-              
+
               <AnimatePresence mode="popLayout">
                 <motion.span
                   key={item.value}
@@ -230,7 +228,7 @@ const Hero: React.FC = () => {
             className="absolute inset-0 bg-gradient-to-r from-transparent via-white/50 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 pointer-events-none"
           />
           <span className="relative z-10 font-bold drop-shadow-sm flex items-center gap-2">
-            📅 SAVE THE DATE
+            SAVE THE DATE
           </span>
         </motion.button>
       </div>

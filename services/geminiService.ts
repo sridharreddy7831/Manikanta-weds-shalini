@@ -7,7 +7,7 @@ export async function generateBlessing(guestName: string, relationship: string):
   try {
     const response = await ai.models.generateContent({
       model: "gemini-3-flash-preview",
-      contents: `Generate a traditional Indian Hindu wedding blessing message for a couple (Manikanta and Shalini) from a guest named ${guestName} who is their ${relationship}. 
+      contents: `Generate a traditional Indian Hindu wedding blessing message for a couple (Manikanta Reddy and Baby Shalini) from a guest named ${guestName} who is their ${relationship}. 
       The tone should be warm, respectful, and include traditional values like 'Saubhagyavati Bhava', prosperity, and eternal love. 
       Keep it around 2-3 sentences. Start with a traditional Sanskrit greeting transliterated or translated.`,
       config: {

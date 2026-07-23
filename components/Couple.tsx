@@ -46,7 +46,7 @@ const Couple: React.FC = () => {
               </div>
             </div>
 
-            <h3 className="font-traditional font-bold text-2xl sm:text-3xl text-[#800000] mb-2">
+            <h3 className="font-traditional font-bold text-xl sm:text-2xl md:text-3xl text-[#800000] mb-2 whitespace-nowrap">
               Eedhe Manikanta Reddy
             </h3>
 
@@ -91,7 +91,7 @@ const Couple: React.FC = () => {
               </div>
             </div>
 
-            <h3 className="font-traditional font-bold text-2xl sm:text-3xl text-[#800000] mb-2">
+            <h3 className="font-traditional font-bold text-xl sm:text-2xl md:text-3xl text-[#800000] mb-2 whitespace-nowrap">
               Poreddy Baby Shalini
             </h3>
 

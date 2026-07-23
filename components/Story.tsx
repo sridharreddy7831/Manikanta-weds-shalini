@@ -82,9 +82,9 @@ const Story: React.FC = () => {
                   alt="Manikanta"
                   className="w-20 h-20 sm:w-28 sm:h-28 md:w-36 md:h-36 rounded-full border-4 border-[#FFD700] p-1 object-cover mb-2 shadow-lg group-hover:-rotate-3 transition-transform"
                 />
-                <div className="absolute -bottom-1 -right-1 sm:-bottom-2 sm:-right-2 bg-[#800000] text-white text-[8px] sm:text-[10px] px-2 sm:px-4 py-0.5 sm:py-1 rounded-full font-bold border border-[#FFD700] shadow-md">GROOM</div>
+                <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 sm:-bottom-2 bg-[#800000] text-white text-[8px] sm:text-[10px] px-2 sm:px-4 py-0.5 sm:py-1 rounded-full font-bold border border-[#FFD700] shadow-md whitespace-nowrap">GROOM</div>
               </div>
-              <p className="font-traditional font-bold mt-3 text-sm sm:text-xl text-[#800000]">Manikanta Reddy</p>
+              <p className="font-traditional font-bold mt-3 text-sm sm:text-xl text-[#800000] whitespace-nowrap">Manikanta Reddy</p>
             </motion.div>
 
             <motion.div
@@ -118,9 +118,9 @@ const Story: React.FC = () => {
                   alt="Shalini"
                   className="w-20 h-20 sm:w-28 sm:h-28 md:w-36 md:h-36 rounded-full border-4 border-[#FFD700] p-1 object-cover mb-2 shadow-lg group-hover:rotate-3 transition-transform"
                 />
-                <div className="absolute -bottom-1 -right-1 sm:-bottom-2 sm:-right-2 bg-[#800000] text-white text-[8px] sm:text-[10px] px-2 sm:px-4 py-0.5 sm:py-1 rounded-full font-bold border border-[#FFD700] shadow-md">BRIDE</div>
+                <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 sm:-bottom-2 bg-[#800000] text-white text-[8px] sm:text-[10px] px-2 sm:px-4 py-0.5 sm:py-1 rounded-full font-bold border border-[#FFD700] shadow-md whitespace-nowrap">BRIDE</div>
               </div>
-              <p className="font-traditional font-bold mt-3 text-sm sm:text-xl text-[#800000]">Baby Shalini</p>
+              <p className="font-traditional font-bold mt-3 text-sm sm:text-xl text-[#800000] whitespace-nowrap">Baby Shalini</p>
             </motion.div>
           </div>
         </div>

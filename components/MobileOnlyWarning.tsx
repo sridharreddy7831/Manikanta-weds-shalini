@@ -39,7 +39,7 @@ const MobileOnlyWarning: React.FC = () => {
         )}
 
         <div className="text-white/60 text-[10px] mt-2 italic font-serif">
-          Manikanta & Shalini's Wedding Invitation
+          Manikanta Reddy & Baby Shalini's Wedding Invitation
         </div>
       </div>
     </div>

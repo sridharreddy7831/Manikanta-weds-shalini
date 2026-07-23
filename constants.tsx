@@ -38,7 +38,7 @@ export const WEDDING_EVENTS: WeddingEvent[] = [
     date: 'Saturday, August 15, 2026',
     time: 'Early Morning 01:05 AM - 01:49 AM (Vrushaba Lagnam)',
     venue: 'Polam Siddareddy Function Hall, Kokkanti Cross, Pin - 515571',
-    description: 'The sacred moment of union where Manikanta & Shalini tie the knot in the presence of family and the divine.',
+    description: 'The sacred moment of union where Manikanta Reddy & Baby Shalini tie the knot in the presence of family and the divine.',
     icon: '🔥',
     color: '#800000'
   }

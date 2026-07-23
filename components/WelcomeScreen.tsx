@@ -109,8 +109,10 @@ const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onOpen }) => {
                     transition={{ duration: 1.2, delay: 1.1, type: "spring" }}
                     className="mb-12"
                 >
-                    <h1 className="text-white font-traditional text-4xl md:text-7xl mb-1 drop-shadow-[0_0_35px_rgba(255,215,0,0.65)] font-bold tracking-wide">
-                        Manikanta Reddy <span className="text-[#FFD700] font-script text-3xl md:text-6xl">&</span> Baby Shalini
+                    <h1 className="text-white font-traditional text-3xl sm:text-5xl md:text-6xl lg:text-7xl mb-1 drop-shadow-[0_0_35px_rgba(255,215,0,0.65)] font-bold tracking-wide flex flex-col items-center gap-2">
+                        <span className="whitespace-nowrap">Manikanta Reddy</span>
+                        <span className="text-[#FFD700] font-script text-4xl sm:text-6xl md:text-7.5xl leading-none">&</span>
+                        <span className="whitespace-nowrap">Baby Shalini</span>
                     </h1>
                 </motion.div>
 
